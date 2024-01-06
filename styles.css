@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:rgb(178, 207, 150);
+    color: white;
+}
+span{
+    color:red;
+}
+.container{
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: #414141;
+    border-radius: 0%;
+    box-shadow:rgba(38, 57, 77, 0.4) 0px 20px 30px
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    background: #7389d7;
+    cursor: pointer;
+    transition: all .5s ease;
+}
